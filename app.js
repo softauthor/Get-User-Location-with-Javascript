@@ -29,7 +29,7 @@
                 setAddressToInputField(address.results[0].formatted_address)
             }
         };
-        xhttp.open("GET", "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + long + "&key=AIzaSyATZGF2z0UgjOUnn2f5D6VApYJumB10x-4", true);
+        xhttp.open("GET", "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + long + "&key=**************", true);
         xhttp.send();
     }
 
